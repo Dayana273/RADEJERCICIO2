@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RADEJERCICIO2.MainPage">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center"
+                     HorizontalOptions="Center">
+            <Label Text="CALCULADORA"   
+                 TextColor="Black"
+                WidthRequest="250"
+                HeightRequest="50"
+                Margin="10,0"
+                Padding="10"
+                VerticalOptions="Start"
+                HorizontalOptions="Fill"/>
+
+
+            <Label Text="Ingrese su primer digito"
+                      TextColor="Black"
+                
+                WidthRequest="250"
+                HeightRequest="50"
+                Margin="10,0"
+                Padding="10"
+                VerticalOptions="Start"
+                HorizontalOptions="Fill"/>
+            <Entry x:Name="txtnumero1" Keyboard="Numeric"/>
+
+            <Label Text="Ingrese su segundo digito"
+                      TextColor="Black"
+                
+                WidthRequest="250"
+                HeightRequest="50"
+                Margin="10,0"
+                Padding="10"
+                VerticalOptions="Start"
+                HorizontalOptions="Fill"/>
+            <Entry x:Name="txtnumero2" Keyboard="Numeric"/>
+
+
+
+            <Button x:Name="btsuma" Text="Suma" Clicked="btsuma_Clicked"
+                VerticalOptions="End"
+                TextColor="Black"
+                BorderColor="Black"
+                BorderWidth="4"
+                WidthRequest="25"
+                HeightRequest="50"/>
+
+            <Button x:Name="btresta" Text="Resta" Clicked="btresta_Clicked"
+                VerticalOptions="End"
+                TextColor="Black"
+                BorderColor="Black"
+                BorderWidth="4"
+                WidthRequest="25"
+                HeightRequest="50"/>
+            
+            <Button x:Name="btdivision" Text="Division" Clicked="btdivision_Clicked"
+                VerticalOptions="End"
+                TextColor="Black"
+                BorderColor="Black"
+                BorderWidth="4"
+                WidthRequest="25"
+                HeightRequest="50"/>
+
+            <Button x:Name="btmultiplicacion" Text="Multplicacion" Clicked="btmultiplicacion_Clicked"
+                VerticalOptions="End"
+                TextColor="Black"
+                BorderColor="Black"
+                BorderWidth="4"
+                WidthRequest="25"
+                HeightRequest="50"/>
+
+
+            <Button x:Name="btresultado" Text="Resultado" Clicked="btresultado_Clicked"
+                VerticalOptions="End"
+                TextColor="Black"
+                BorderColor="Black"
+                BorderWidth="4"
+                WidthRequest="25"
+                HeightRequest="50"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
